@@ -3,12 +3,8 @@ const singleton = require('../singleton/Singleton');
 
 function Seller({user, password, userdata}){
     return(<>
-    <h1>
-    Seller
-    {user}
-    {password}
-    </h1>
-    <p>{singleton.getJson("marlon")}</p>
+    <h1>Seller</h1>
+    <p>{singleton.getJson("usuario")}</p>
     </>)
 }
 
