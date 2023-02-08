@@ -34,6 +34,14 @@ function LoginForm(){
   return (<>
   <div className='formContainer'>
         <h1>Bienvenido a ReverseBets</h1>
+        <form>
+          <label>usuario</label>
+          <input type={"text"}></input>
+          <label>password</label>
+          <input type={"text"}></input>
+          {/* <label>password</label> */}
+          <input type={"button"}></input>
+        </form>
 
   </div>
 
